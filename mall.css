@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;  
+}
+.front{
+    text-align: center;
+    font-family: cursive;
+    font-weight: 900;
+}
+.label{
+    width:350px;
+    height:370px;
+    text-align: center;
+    margin-left:10px;
+    margin-bottom:20px;
+}
+.what{
+    width:350px;
+    height:370px;
+    font-family: cursive;
+    background-color: white;
+    border: 3px solid black;
+    transition: all 0.9s;
+}
+.what:hover{
+    background-color:black;
+    color: white; 
+    transition: all 0.9s;
+    border:13px solid white;
+}
+.merch{
+    width:280px;
+    height:280px;
+}
+.allmerch{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.nav-item{
+    margin-left:20px;
+}
+.banner{
+    width:1519.5px;
+    height:686px;
+}

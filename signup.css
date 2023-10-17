@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+}
+
+#signup {
+    margin-bottom: 20px;
+    
+    margin-left: 2px;
+    border: none;
+    border-bottom:1px solid black;
+    font-family: cursive;
+}
+
+.asignup {
+    margin-top: 220px;
+    background-color: white;
+    height:400px;
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:20px;
+}
+
+.button {
+    width:170px;
+    height:25px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border-radius:20px;
+    font-family:cursive;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.3s;
+}
+.a{
+    font-family: cursive;
+}
+.boss{
+    display: flex;
+    text-align: center;
+    margin-top:20px;
+}
+.icon{
+    font-size:25px;
+    color: red;
+    width:50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50px;
+    margin-left:30px;
+    text-decoration: none;
+}
+.icon2{
+    font-size:25px;
+    color: blue;
+    width:50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50px;
+}
+.icon3{
+    font-size:25px;
+    color:powderblue;
+    width:50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50px;
+}
+.icon:hover{
+ background-color: black;   
+}
+.icon2:hover{
+    background-color: black;   
+}
+.icon3:hover{
+    background-color: black;   
+   }

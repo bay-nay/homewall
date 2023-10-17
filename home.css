@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sus {
+    position: sticky;
+    top: 0;
+}
+
+.w {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+}
+.w-son{
+    display: flex;
+}
+.null {
+    text-decoration: none;
+    color: white;
+    margin-left: 18px;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: cursive;
+    transition: all 0.5s;
+}
+
+.signin {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 1075px;
+    transition: all 0.5s;
+}
+
+.signup {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: cursive;
+    transition: all 0.5s;
+}
+
+.null:hover {
+    color: red;
+    transition: all 0.5s;
+}
+
+.signin:hover {
+    color: red;
+    transition: all 0.5s;
+}
+
+.signup:hover {
+    color: red;
+    transition: all 0.5s;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    font-family:cursive;
+    font-size: 200px;
+    margin-bottom: 100px;
+}
+
+.active {
+    color: red;
+}
+
+.waw {
+    width: 100%;
+    background-image: cover;
+}
+
+.we {
+    text-align: center;
+    font-weight: 900;
+    font-size: 70px;
+    font-family: cursive;
+}
+
+.you {
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    transition: all 0.5s;
+}
+
+.image:hover{
+    width:250px;
+    height: 250px;
+    transition: all 0.5s;
+}
+
+.sidebar {
+    display: flex;
+}
+
+.side1 {
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 80px;
+    color: white;
+}
+
+.side2 {
+    width: 400px;
+    height: 760px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px;
+    flex: 1
+}
+
+.side {
+    text-decoration: none;
+    margin-top: 40px;
+    font-size: 40px;
+    color: white;
+    font-family: cursive;
+}
+
+.side:hover {
+    color: red;
+}
+
+.footer {
+    background-color: rgb(162, 162, 162);
+    height:130px;
+    display: flex;
+    justify-content:space-between;
+}
+.nav-link{
+    text-decoration: none;
+    color:black;
+}
+
+.footer-son {
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-daughter{
+    font-family: cursive;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    list-style:none;
+    border-bottom:1px solid black;
+}
+.book{
+    display: flex;
+    justify-content: space-around;
+    height:400px;
+}
+.isnide{
+    width:200px;
+}
+.between{
+    font-family: cursive;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
